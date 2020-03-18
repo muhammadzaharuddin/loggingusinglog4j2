@@ -1,0 +1,21 @@
+2020-03-18 10:09:33,980 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-03-18 10:09:34,006 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-18 10:09:34,008 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2020-03-18 10:09:34,010 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-18 10:09:34,113 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-03-18 10:09:34,113 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 772 ms
+2020-03-18 10:09:34,271 INFO o.s.s.c.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 10:09:34,368 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-03-18 10:09:34,388 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-18 10:12:39,991 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 10:12:39,992 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2020-03-18 10:12:39,997 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 5 ms
+2020-03-18 10:12:40,021 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.web.bind.MissingRequestHeaderException: Missing request header 'userId' for method parameter of type Integer]
+2020-03-18 10:13:32,037 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [org.springframework.web.bind.MissingRequestHeaderException: Missing request header 'userId' for method parameter of type Integer]
+2020-03-18 10:13:39,955 WARN c.e.l.c.PetController [http-nio-8080-exec-8] 1
+2020-03-18 10:13:39,982 INFO c.z.h.HikariDataSource [http-nio-8080-exec-8] HikariPool-1 - Starting...
+2020-03-18 10:13:39,986 WARN c.z.h.u.DriverDataSource [http-nio-8080-exec-8] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-03-18 10:13:40,504 INFO c.z.h.HikariDataSource [http-nio-8080-exec-8] HikariPool-1 - Start completed.
+2020-03-18 10:14:34,504 INFO o.s.s.c.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-18 10:14:34,505 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-03-18 10:14:34,516 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
